@@ -16,7 +16,8 @@ If you are browsing a tab and a new tab appears to the left of (earlier than) yo
 
 [0,1,2,3,4]
 
-add N to the new tab location\n
+add N to the new tab location
+
 [a,N,b,c,d,e]
 
 
