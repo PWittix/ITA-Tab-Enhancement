@@ -56,7 +56,8 @@ var updateField = document.createElement('article');
 
 //function to compare data based on argument
 function compare(data){
-
+	//initialize the counter
+	counter=0;
 	//set variables to null.
 	var updateText = null;
 	var updateDate = null;
@@ -124,7 +125,7 @@ function compare(data){
 			pushUpdate(updateField);
 		}
 	}
-
+	tabs.tabs('option', 'active', 0);
 }
 
 
