@@ -25,4 +25,8 @@ add N to the new tab location
 
 you will no longer be browsing tab d, but tab c.  
 
+in the event that an index is deleted, you will be moved as well.  
+if the (currentIndex) would be out of bounds (bigger than the array), 
+opens the default (0th) index.
+
 This is an enhanced example of https://github.com/PWittix/ITA-Tab
