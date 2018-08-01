@@ -160,7 +160,7 @@ current = JSON.stringify(json);
 //check if previous and current exist, and if they do, if the previous is different from the current.
 if (previous && current && previous !== current) {
 	//if different, reset div
-	docDiv.innerHTML = "<ul></ul>";
+	document.getElementById("tabs").innerHTML = "<ul></ul>";
 	//get user's current tab
 	var currentTab = tabs.tabs('option', 'active');
 	//destroy the tabs.
