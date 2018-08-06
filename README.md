@@ -8,6 +8,7 @@ Data is treated as JSON and read into the document.
 Future improvements:
 
   time: n minutes/hours ago
+  
   Map?
 
 This is an enhanced example of https://github.com/PWittix/ITA-Tab
