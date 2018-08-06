@@ -162,8 +162,6 @@ current = JSON.stringify(json);
 if (previous && current && previous !== current) {
 	//if different, reset div
 	document.getElementById("tabs").innerHTML = "<ul></ul>";
-	//get user's current tab
-	var currentTab = tabs.tabs('option', 'active');
 	//destroy the tabs.
 	tabs.tabs('destroy');
 	//initialize tabs.
@@ -173,7 +171,7 @@ if (previous && current && previous !== current) {
 	//re-ingest the json file
 	ingest(json);
 	//open the tab the user was previously on while pushing new data
-	tabs.tabs("refresh").tabs("option", "active", currentTab);
+	tabs.tabs("refresh").tabs("option", "active", 0);
  }
  //set the previous data to the now current data
   previous = current;
